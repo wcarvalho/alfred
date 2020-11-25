@@ -1,0 +1,28 @@
+channels:
+- kne  # for pybox2d
+- pytorch
+- anaconda  # foer labr mkl
+- conda-forge # for jupyt
+dependencies:
+- pip
+- matplotlib
+- python=3.6.8
+- jupyterlab==0.35.6
+- ipywidgets==7.4.2
+- nodejs
+- tensorflow-gpu==1.12.0
+- pip:
+  - numpy
+  - pandas
+  - opencv-python
+  - networkx
+  - h5py
+  - tqdm
+  - vocab
+  - revtok
+  - Pillow
+  - torch==1.1.0
+  - torchvision==0.3.0
+  - tensorboardX==1.8
+  - ai2thor==2.1.0
+  - ipdb==0.12
